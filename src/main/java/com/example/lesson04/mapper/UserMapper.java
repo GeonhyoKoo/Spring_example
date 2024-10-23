@@ -21,4 +21,8 @@ public interface UserMapper {
 	public User selectLatestUser();
 	
 	
+	// input : name
+	// output : boolean t: 중복 f: 중복X
+	public boolean isDuplicatedName(String name);
+	
 }
